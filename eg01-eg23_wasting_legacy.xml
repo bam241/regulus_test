@@ -249,7 +249,7 @@ BR = (12.97121*.998)/(12.8996341) = 1.00353
           <val>1.0</val>
           <val>1.0</val>
           <val>1.0</val>
-          <val>100.0</val>
+          <val>1.0</val>
         </in_commod_prefs>
         <capacity>1E299</capacity>
       </Sink>
@@ -403,9 +403,9 @@ BR = (12.97121*.998)/(12.8996341) = 1.00353
     <config>
       <Reactor>
         <fuel_inrecipes>  <val>uox_recipe</val>       </fuel_inrecipes>
-        <fuel_outrecipes> <val>legacy_uox_waste_recipe</val>  </fuel_outrecipes>
+        <fuel_outrecipes> <val>uox_waste_recipe</val>  </fuel_outrecipes>
         <fuel_incommods>  <val>uox</val>                   </fuel_incommods>
-        <fuel_outcommods> <val>uox_waste</val>             </fuel_outcommods>
+        <fuel_outcommods> <val>legacy_uox_waste</val>             </fuel_outcommods>
         <fuel_prefs>      <val>1.0</val>                   </fuel_prefs>
         <cycle_time>18</cycle_time>
         <refuel_time>1</refuel_time>
@@ -423,9 +423,9 @@ BR = (12.97121*.998)/(12.8996341) = 1.00353
     <config>
       <Reactor>
         <fuel_inrecipes>  <val>uox_recipe</val>       </fuel_inrecipes>
-        <fuel_outrecipes> <val>legacy_uox_waste_recipe</val>  </fuel_outrecipes>
+        <fuel_outrecipes> <val>uox_waste_recipe</val>  </fuel_outrecipes>
         <fuel_incommods>  <val>uox</val>                   </fuel_incommods>
-        <fuel_outcommods> <val>uox_waste</val>             </fuel_outcommods>
+        <fuel_outcommods> <val>legacy_uox_waste</val>             </fuel_outcommods>
         <fuel_prefs>      <val>1.0</val>                   </fuel_prefs>
         <cycle_time>18</cycle_time>
         <refuel_time>1</refuel_time>
@@ -1403,4 +1403,4 @@ BR = (12.97121*.998)/(12.8996341) = 1.00353
 
   </recipe> 
 
-</simu0.00215735690.8665733427lation>
+</simulation>
