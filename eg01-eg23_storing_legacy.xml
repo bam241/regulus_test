@@ -517,15 +517,6 @@ BR = (12.97121*.998)/(12.8996341) = 1.00353
           <prototype>legacy_uox_pool</prototype>
         </entry>
 
-        <!-- REPROCESSING PLANTS -->
-        <entry>
-          <number>1</number>
-          <prototype>uox_reprocessing</prototype>
-        </entry>
-        <entry>
-          <number>1</number>
-          <prototype>sfr_reprocessing</prototype>
-        </entry>
         
       </initialfacilitylist>
       <name>sink_source_facilities</name>
@@ -1276,8 +1267,29 @@ BR = (12.97121*.998)/(12.8996341) = 1.00353
           </config>
      </institution>
 
+     <institution>
+          <name>recycling_inst</name>
+          <config>
+               <DeployInst>
+                    <prototypes>
+                         <val>uox_reprocessing</val>
+                         <val>sfr_reprocessing</val>
+                    </prototypes>
+                    <n_build>
+                         <val>9</val>
+                         <val>8</val>
+                    </n_build>
+                    <build_times>
+                         <val>1500</val>
+                         <val>1500</val>
+                    </build_times>
+               </DeployInst>
+          </config>
+     </institution>
     <name>USA</name>
   </region>
+  
+
 <!-- Recipes -->
 
 

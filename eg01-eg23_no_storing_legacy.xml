@@ -182,7 +182,7 @@ BR = (12.97121*.998)/(12.8996341) = 1.00353
                 <stream>
                     <info>
                         <mixing_ratio>0.128996341</mixing_ratio>
-                        <buf_size>1e100</buf_size>
+                        <buf_size>1e299</buf_size>
                     </info>
                     <commodities>
                         <item>
@@ -198,7 +198,7 @@ BR = (12.97121*.998)/(12.8996341) = 1.00353
                 <stream>
                     <info>
                         <mixing_ratio>0.714003659</mixing_ratio>
-                        <buf_size>1e100</buf_size>
+                        <buf_size>1e299</buf_size>
                     </info>
                     <commodities>
                         <item>
@@ -214,7 +214,7 @@ BR = (12.97121*.998)/(12.8996341) = 1.00353
                 <stream>
                     <info>
                         <mixing_ratio>0.157</mixing_ratio>
-                        <buf_size>1e100</buf_size>
+                        <buf_size>1e299</buf_size>
                     </info>
                     <commodities>
                         <item>
@@ -229,8 +229,8 @@ BR = (12.97121*.998)/(12.8996341) = 1.00353
                 </stream>
             </in_streams>
             <out_commod>sfr_fuel</out_commod>
-            <out_buf_size>1e100</out_buf_size>
-            <throughput>1e100</throughput>
+            <out_buf_size>1e299</out_buf_size>
+            <throughput>1e299</throughput>
         </Mixer>
     </config>
 </facility>
@@ -524,15 +524,6 @@ BR = (12.97121*.998)/(12.8996341) = 1.00353
           <prototype>legacy_uox_pool</prototype>
         </entry>
 
-        <!-- REPROCESSING PLANTS -->
-        <entry>
-          <number>1</number>
-          <prototype>uox_reprocessing</prototype>
-        </entry>
-        <entry>
-          <number>1</number>
-          <prototype>sfr_reprocessing</prototype>
-        </entry>
         
       </initialfacilitylist>
       <name>sink_source_facilities</name>
@@ -1283,6 +1274,25 @@ BR = (12.97121*.998)/(12.8996341) = 1.00353
           </config>
      </institution>
 
+     <institution>
+          <name>recycling_inst</name>
+          <config>
+               <DeployInst>
+                    <prototypes>
+                         <val>uox_reprocessing</val>
+                         <val>sfr_reprocessing</val>
+                    </prototypes>
+                    <n_build>
+                         <val>9</val>
+                         <val>8</val>
+                    </n_build>
+                    <build_times>
+                         <val>1500</val>
+                         <val>1500</val>
+                    </build_times>
+               </DeployInst>
+          </config>
+     </institution>
     <name>USA</name>
   </region>
 
@@ -1335,9 +1345,9 @@ BR = (12.97121*.998)/(12.8996341) = 1.00353
     <name>sfr_waste_recipe</name>
     <basis>mass</basis>
      <nuclide> <id>U238</id>  <comp>80</comp> </nuclide> 
-     <nuclide> <id>Pu239</id>  <comp>12.938333</comp> </nuclide> 
+     <nuclide> <id>Pu239</id>  <comp>13.039000</comp> </nuclide> 
      <nuclide> <id>Am241</id>  <comp>0.1205</comp> </nuclide> 
-     <nuclide> <id>Cs137</id>  <comp>6.9411670</comp> </nuclide> 
+     <nuclide> <id>Cs137</id>  <comp>6.8405</comp> </nuclide> 
 
   </recipe> 
 
