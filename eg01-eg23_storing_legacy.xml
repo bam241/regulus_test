@@ -243,14 +243,7 @@ BR = (12.97121*.998)/(12.8996341) = 1.00353
           <val>tailings</val>
           <val>reprocess_waste</val>
           <val>sfr_reprocess_waste</val>
-          <val>legacy_cool_uox_waste</val>
         </in_commods>
-        <in_commod_prefs>
-          <val>1.0</val>
-          <val>1.0</val>
-          <val>1.0</val>
-          <val>1.0</val>
-        </in_commod_prefs>
         <capacity>1E299</capacity>
       </Sink>
     </config>
